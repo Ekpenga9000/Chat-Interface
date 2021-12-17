@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+html {
+    padding: 5em;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 3fr;
+    height: 80vh;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.sidebar {
+    background-color: #8b8b8b;
+    border-radius: 1em 0 0 1em;
+}
+
+.contact_bar {
+    background-color: rgb(34, 34, 34);
+}
+
+.chatbox {
+    background-color: darkgray;
+    border-radius: 0 1em 1em 0;
+}
+
+.top {
+    display: flex;
+    padding: 1em;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+.red {
+    background-color: red;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: green;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+}
+
+.menu {
+    background-image: url(menu2.png);
+    background-size: contain;
+    height: 2em;
+    width: 2em;
+    color: white;
+    margin-left: 30%;
+    margin-bottom: 2em;
+}
+
+.contact {
+    background-image: url(contact.png);
+    background-size: contain;
+    height: 2em;
+    width: 2em;
+    color: white;
+    margin-left: 30%;
+    margin-bottom: 2em;
+}
+
+.search {
+    background-image: url(icons8-search.svg);
+    background-size: contain;
+    height: 2em;
+    width: 2em;
+    color: white;
+    margin-left: 30%;
+    margin-bottom: 2em;
+}
+
+.chat {
+    background-image: url(chat.png);
+    background-size: contain;
+    height: 2em;
+    width: 2em;
+    color: white;
+    margin-left: 30%;
+}
+
+.search_bar input[type=text] {
+    background-color: rgb(190, 190, 190);
+    color: whitesmoke;
+    margin: 1em;
+    border: none;
+    height: 2em;
+    border-radius: 0.5em;
+    padding: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-weight: lighter;
+    color: rgb(173, 173, 173);
+}
+
+.favorite {
+    display: flex;
+    padding: 0 1em;
+}
+
+.plus {
+    background-image: url(plus-sign-button.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1em;
+    width: 1em;
+    margin-left: 60%;
+
+}
+
+.favourites p {
+    font-size: 0.75rem;
+}
+
+.group {
+    margin-top: 5%;
+}
+
+.pro_img {
+    background-image: url(man.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1em;
+    width: 1em;
+    margin-right: 2%;
+    border-radius: 50%;
+
+}
